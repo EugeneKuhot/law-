@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Peridona - landing page by Vladimir Nofenko</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+  		<meta name="format-detection" content="telephone=no">
+		<link rel="preload" href="css/style.css" as="style">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body class="body">
+		<header class="header container">
+			<img src="img/logo.png" alt="logo peridona" class="header__logo" width="116" height="27">
+
+			<nav class="header__menu">
+				<button class="header__menu-hide" type="button"></button>
+				<button class="header__menu-burger" type="button"></button>
+
+				<ul class="main-menu main-menu--mobile">
+					<li class="main-menu__item">
+						<a href="#contact" class="main-menu--mobile">Контакт</a>
+					</li>
+					<li class="main-menu__item">
+						<a href="#about-us" class="main-menu--mobile">О нас</a>
+					</li>
+					<li class="main-menu__item">
+						<a href="#service" class="main-menu--mobile">Услуги</a>
+					</li>
+					<li class="main-menu__item">
+						<a href="#team" class="main-menu--mobile">Команда</a>
+					</li>
+				</ul>
+			</nav>
+
+		</header>
+		<main class="main-page">
+
+			<section class="about-us">
+				<div class="container">
+					<div class="about-us__info contact-info ">
+						<ul class="contact-info__list">
+							<li class="contact-info__time">Юридические консультации для иностранцев</li>
+						</ul>
+					</div>
+
+					<div class="about-us__block">
+						<img src="img/skyscraper.jpg" alt="Photo of our office" class="about-us__image" height="750" width="475">
+
+						<div class="about-us__right">
+							<div class="about-us__info-wrapper">
+								<h1 class="about-us__title"><a id="about-us" class="section__link"></a>Юридические консультации</h1>
+								<p class="about-us__description">Иностранцы, желающие получить консультацию по легализации или интеграции,
+									могут связаться с юристами и консультантами, которые работают в проекте, чтобы договориться о встрече в офисе</p>
+								<a class="about-us__button" href="#contact">Свяжись с нами</a>
+							</div>
+
+							<div class="about-us__companies">
+								<a href="#" class="about-us__alisa">
+									<img src="img/alisa.jpg" alt="alisa boutique logo"  width="82" height="42">
+								</a>
+								<a href="#" class="about-us__natural">
+									<img src="img/natural.jpg" alt="urban logo"  width="106" height="29">
+								</a>
+								<a href="#" class="about-us__microvave">
+									<img src="img/microvave.jpg" alt="microvave hair salon logo"  width="141" height="22">
+								</a>
+								<a href="#" class="about-us__urban">
+									<img src="img/urban.jpg" alt="urban logo"  width="96" height="26">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="container main-page__wrapper">
+				<section class="experience">
+					<h2 class="experience__title section-title">Бесплатные юридические консультации</h2>
+					<p class="experience__text"><b>Каждому иностранцу, проживающему временно или постоянно на территории другой страны,</b> в любой момент может понадобиться помощь квалифицированного юриста. И лучше будет, если вы доверите решение конфликтной ситуации нашим опытным специалистам. <br>
+						Мы предоставляем весь спектр услуг без необходимости привлечения переводчиков и посредников.</p>
+				</section>
+				<section class="contact">
+					<h2 class="contact__title section-title section-title--color">
+						<a id="contact" class="section__link"></a>Оставь запрос и мы свяжемся с тобой</h2>
+
+					<form action="#" class="contact__form">
+						<input type="text" class="contact__name" placeholder="Имя" minlength="2" maxlength="20" required>
+						<input type="tel" class="contact__email" placeholder="Контактный номер" required>
+						<textarea class="contact__message" placeholder="Краткое описание проблемы"></textarea>
+						<button type="submit" class="contact__submit">Отправить</button>
+					</form>
+				</section>
+			</div>
+
+			<section class="services">
+				<div class="services__wrapper container">
+					<h2 class="services__title section-title"><a id="service" class="section__link"></a>О нас</h2>
+
+					<p class="services__desc">Мы - международная юридическая компания, которая обеспечивает надежную правовую защиту интересов клиентов, оказывает юридические и консалтинговые услуги для частных лиц и бизнеса по разным юридическим вопросам с 2009 года.</p>
+				
+					<ul class="services__list">
+						<li class="services__item services__item--consult">
+							<h3 class="services__item-title">Семейное право</h3>
+							<p class="services__item-desc">Профессиональная помощь семейного адвоката позволит защитить ваши интересы при рассмотрении семейного спора.</p>
+						</li>
+
+						<li class="services__item services__item--audit">
+							<h3 class="services__item-title">Страховое право</h3>
+							<p class="services__item-desc">Адвокат по страхованию оказывает юридическую помощь в сфере страхового права.</p>
+						</li>
+
+						<li class="services__item services__item--business">
+							<h3 class="services__item-title">Гражданское право</h3>
+							<p class="services__item-desc">Гражданский адвокат очень часто является единственной гарантией решения сложных ситуаций.</p>
+						</li>
+
+						<li class="services__item services__item--training">
+							<h3 class="services__item-title">Уголовное право</h3>
+							<p class="services__item-desc">Адвокат по уголовным делам, оказывает юридическую помощь и защиту при привлечении к уголовной ответственности.</p>
+						</li>
+
+						<li class="services__item services__item--planning">
+							<h3 class="services__item-title">Бизнес-эмиграции за рубеж</h3>
+							<p class="services__item-desc">Юридическое сопровождение по вопросам легального перемещения активов за рубеж, открытие успешного бизнеса в европейской стране</p>
+						</li>
+
+						<li class="services__item services__item--analysis">
+							<h3 class="services__item-title">Оформление наследства</h3>
+							<p class="services__item-desc">Адвокат оказывает юридические услуги по вопросам наследственного права и оформлению наследства на движимое и недвижимое имущество</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="team container">
+				<div class="team__info-block">
+					<h2 class="team__title section-title"><a id="team" class="section__link"></a>Наша команда</h2>
+
+					<p class="team__desc">Мы - многопрофильная международная юридическая фирма, в которой работают профессиональные адвокаты и юристы, специализирующиеся на выполнении разных юридических задач.
+						Наши адвокаты и юристы оказывают юридические услуги по всей территории ЕС.</p>
+				</div>
+
+				<div class="team__worker">
+					<div class="team__worker-info">
+						<h3 class="team__worker-name">Бартош Сагура</h3>
+						<p class="team__worker-position">Семейный юрист</p>
+					</div>
+					<img src="img/john.jpg" alt="John Grogaries photo" class="team__worker-img" width="235" height="369">
+				</div>
+
+				<div class="team__worker">
+					<div class="team__worker-info">
+						<h3 class="team__worker-name">Ингвар Тольдеш</h3>
+						<p class="team__worker-position">Адвокат по уголовным делам</p>
+					</div>
+					<img src="img/adam.jpg" alt="Adam Herison Pole photo" class="team__worker-img" width="235" height="369">
+				</div>
+
+				<div class="team__worker">
+					<div class="team__worker-info">
+						<h3 class="team__worker-name">Анастасия Ерёменко</h3>
+						<p class="team__worker-position">Адвокат по страхованию</p>
+					</div>
+					<img src="img/mani.jpg" alt="Mani Bomikola photo" class="team__worker-img" width="235" height="369">
+				</div>
+
+			</section>
+
+			<section class="news">
+				<div class="news__wrapper container">
+					<h2 class="section-title news__title"><a id="blog" class="section__link"></a>Latest news</h2>
+
+					<p class="news__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+					<div class="news__list">
+						<article class="news__article article">
+							<a href="#" class="article__link">
+								<img src="img/news-1.jpg" alt="process of working photo" class="article__img" width="100%" height="auto">
+							</a>
+							<h3 class="article__title">Enim ad minim ven magna</h3>
+							<p class="article__desc">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+						</article>
+
+						<article class="news__article article">
+							<a href="#" class="article__link">
+								<img src="img/news-2.jpg" alt="process of working photo" class="article__img" width="100%" height="auto">
+							</a>
+							<h3 class="article__title">Lorem ipsum dolor sit amet</h3>
+							<p class="article__desc">Abore et dolore magna aliqua. Ut enim aliquip ex ea commodo consequat. Duis Excepteur sint occaecat cupidatat non proident, sunt in culpa ...</p>		
+						</article>
+
+						<article class="news__article article">
+							<a href="#" class="article__link">
+								<img src="img/news-3.jpg" alt="process of working photo" class="article__img" width="100%" height="auto">
+							</a>
+							<h3 class="article__title">Dolore magna aliqua enim</h3>
+							<p class="article__desc">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+						</article>
+					</div>
+
+					<a href="#" class="news__more button">Learn more</a>
+				</div>
+			</section>
+
+			<section class="moments container">
+
+				<div class="moments__top">
+					<h2 class="moments__title section-title">Our Happy Moments</h2>
+					<p class="moments__desc">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<a href="#" class="moments__button button">Learn more</a>
+				</div>
+
+				<div class="moments__images">
+					<img src="img/happy-1.jpg" alt="skyscraper photo" class="moments__image" width="470" height="353">
+					<img src="img/happy-2.jpg" alt="skyscrapers photo" class="moments__image" width="270" height="353">
+					<img src="img/happy-3.jpg" alt="ranks photo" class="moments__image" width="370" height="178">
+					<img src="img/happy-4.jpg" alt="laptop photo" class="moments__image" width="370" height="230">
+					<img src="img/happy-5.jpg" alt="girl photo" class="moments__image" width="370" height="230">
+					<img src="img/happy-6.jpg" alt="laptop photo" class="moments__image" width="370" height="403">
+				</div>
+				
+			</section>
+
+			<section class="slider">
+				<button class="slider__back" tabindex="0"></button>
+				<img src="" alt="slider photo" class="slider__photo">
+				<button class="slider__close" tabindex="0"></button>
+				<button class="slider__next" tabindex="0"></button>
+			</section>
+
+			<footer class="footer">
+				<div class="footer__wrapper container">
+					<div class="footer__social">
+						<h3 class="footer__block-title">Peridona</h3>
+						<p class="footer__social-desc">Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+						reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+						<!--<ul class="footer__social-list social">
+							<li class="social__fb"><a href="#"><img src="img/facebook.svg" alt="find us on facebook" width="20"></a></li>
+							<li class="social__twitter"><a href="#"><img src="img/twitter.svg" alt="find us on twitter" width="20"></a></li>
+							<li class="social__insta"><a href="#"><img src="img/instagram.svg" alt="find us on instagram" width="20"></a></li>
+							<li class="social__skype"><a href="#"><img src="img/skype.svg" alt="find us on skype" width="20"></a></li>
+							<li class="social__pinterest"><a href="#"><img src="img/pinterest.svg" alt="find us on pinterest" width="20"></a></li>
+						</ul>-->
+					</div>
+
+					<div class="footer__resources">
+						<h3 class="footer__block-title">Resources</h3>
+
+						<nav class="footer__resources-menu">
+							<ul class="footer__resources-list">
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Help center</a></li>
+								<li><a href="#">Community</a></li>
+								<li><a href="#">Marketplace</a></li>
+								<li><a href="#">Career</a></li>
+							</ul>
+						</nav>
+					</div>
+
+					<div class="footer__links">
+						<h3 class="footer__block-title">Links</h3>
+
+						<nav class="footer__links-menu">
+							<ul class="footer__links-list">
+								<li><a href="#">Pricing</a></li>
+								<li><a href="#">Contact</a></li>
+								<li><a href="#">Forum</a></li>
+								<li><a href="#">Live chat</a></li>
+							</ul>
+						</nav>
+					</div>
+
+					<div class="footer__subscript">
+						<h3 class="footer__block-title">Subscription</h3>
+
+						<p class="footer__subscript-text">Subscribe us to get latest update</p>
+						<input type="email" placeholder="Email" class="footer__subscript-input">
+						<button type="button" class="footer__subscript-btn">Subscribe</button>
+					</div>
+				</div>
+			</footer>
+		</main>	
+		<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+		<script src="js/burger-menu.js"></script>
+		<script src="js/counter.js"></script>
+		<script src="js/presentation.js"></script>
+		<script src="js/slider.js"></script>
+	</body>
+</html>
